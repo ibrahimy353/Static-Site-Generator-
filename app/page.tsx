@@ -1,4 +1,5 @@
 import  fs  from "fs";
+import Link from "next/link";
 
 const getPostMetadata = () =>{
   const folder = "posts/";
@@ -12,7 +13,10 @@ const Homepage = () => {
   const postMetadata = getPostMetadata();
   const postPreviews = postMetadata.map((slug) => (
     <div>
+      <Link href={"/posts/${slug}"}> 
       <h2>{slug}</h2>
+      </Link>
+      {/* added link that connects the homepage with the md files */}
     </div>
   ));
 

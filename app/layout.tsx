@@ -20,7 +20,7 @@ const footer = (
   <footer>
     <div>
       <br/>
-      <h3>Devloped by Ibra</h3>
+      <h3>Developed by Ibra</h3>
     </div>
   </footer>
 )

@@ -14,7 +14,7 @@ const Homepage = () => {
   const postPreviews = postMetadata.map((slug) => (
     <div>
       <Link href={"/posts/${slug}"}> 
-      <h2>{slug}</h2>
+      <h1>{slug}</h1>
       </Link>
       {/* added link that connects the homepage with the md files */}
     </div>

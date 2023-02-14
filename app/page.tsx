@@ -1,6 +1,22 @@
+import  fs  from "fs";
+
+const getPostMetadata = () =>{
+  const folder = "posts/";
+  const files = fs.readdirSync(folder);
+  const markdownPosts = files.filter ((file) => file.endsWith (".md"));//gets to select the files that endwith .md
+  const slugs = markdownPosts.map((file) => file.replace (".md", ""));
+  return slugs;
+};
+
 const Homepage = () => {
-  <title>ibra</title>;
-  return <h1> Hello world ni ibra</h1>;
+  const postMetadata = getPostMetadata();
+  const postPreviews = postMetadata.map((slug) => (
+    <div>
+      <h2>{slug}</h2>
+    </div>
+  ));
+
+  return <div>{postPreviews}</div>;
 };
 
 export default Homepage;

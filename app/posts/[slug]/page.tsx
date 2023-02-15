@@ -1,12 +1,10 @@
 
-
 const PostPage = (props: any) => {
-    const slug = props.params.slug;
-    return (
-        <p>
-            <h1>this the post under:{slug}</h1>
-        </p>
-    );
+  const slugs = props.params.slugs;
+  return (
+    <p>
+      <h1>This is a post: {slugs}</h1>
+    </p>
+  );
 };
-
-export default PostPage;
+ export default PostPage;2

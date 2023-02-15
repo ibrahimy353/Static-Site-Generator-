@@ -10,7 +10,7 @@ export default function RootLayout({
   const header = (
     <header>
       <div className="text-center bg-slate-500 p-8 my-6 rounded-md">
-        <Image src="/logo.png" width={40}  height ={40}/>
+        <Image src="/logo.png" width={60}  height ={60}/>
         <Link href="/">
           <h1 className="text-3xl text-white font-bold mt-3" > Ibrahim SSG</h1>
         </Link>

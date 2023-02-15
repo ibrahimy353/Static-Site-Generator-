@@ -8,7 +8,10 @@ const getPostContent = (slug: string) => {
   const content = fs.readFileSync( file, "utf-8"); //file path with utf encoding
   const matterResult = matter(content);
   return matterResult;
+};
 
+export const generateStaticParams = async () =>{
+  return [{slug: "new-page"}];
 };
 
 const PostPage = (props: any) => {

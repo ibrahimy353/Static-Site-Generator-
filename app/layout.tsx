@@ -8,12 +8,11 @@ export default function RootLayout({
 
   const header = (
     <header>
-      <div>
+      <div className="text-center bg-slate-500 p-8 my-6 rounded-md">
         <Link href="/">
-          <h1> Ibrahim SSG</h1>
+          <h1 className="text-3xl text-white font-bold mt-3" > Ibrahim SSG</h1>
         </Link>
-        <p>Welcome to my static site generator</p>
-        <br/>
+        <p className="text-slate-300">Welcome to my static site generator</p>
       </div>
     </header>
   );
@@ -21,8 +20,7 @@ export default function RootLayout({
 
 const footer = (
   <footer>
-    <div>
-      <br/>
+    <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-400">
       <h3>Developed by Ibra</h3>
     </div>
   </footer>
@@ -34,9 +32,11 @@ const footer = (
       <head />
       
       <body>
-        {header}
-        {children}
-        {footer}
+        <div className="mx-auto max-w-2xl px-6 " >
+          {header}
+          {children}
+          {footer}
+        </div>
         </body>
     </html>
   )

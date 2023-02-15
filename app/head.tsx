@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title className="text-3xl font-bold underline">Ibrahim SSG</title>
+      <title>Ibrahim SSG</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="icon" href="/favicon.ico" />
     </>

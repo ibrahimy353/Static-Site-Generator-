@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 export default function RootLayout({
   children,
 }: {
@@ -8,7 +8,9 @@ export default function RootLayout({
   const header = (
     <header>
       <div>
-        <h1> Ibrahim SSG</h1>
+        <Link href="/">
+          <h1> Ibrahim SSG</h1>
+        </Link>
         <p>Welcome to my static site generator</p>
         <br/>
       </div>

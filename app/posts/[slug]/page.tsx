@@ -22,11 +22,13 @@ export const generateStaticParams = async () =>{
 
 const PostPage = (props: any) => {
   const slug = props.params.slug;//the .slug can be any name that u have used in the square brackets
-  const post= getPostContent(slug);
+  const post= getPostContent(slug); 
   return (
     <div>
-      <h1>{post.data.title}</h1>
-      <Markdown>{post.content}</Markdown>
+      <h1  className="text-2x1 text-violet-600">{post.data.title}</h1>
+      <article className="prose prose-slate">
+        <Markdown>{post.content}</Markdown>
+      </article>
     </div>
   );
 };

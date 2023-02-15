@@ -9,6 +9,7 @@ const Homepage = () => {
   ));
 
   return <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>;
+  //the grid grid column is for different screen size where in large screen shows two screen and in small screen it shows one column
 };
 
 export default Homepage;

@@ -1,14 +1,14 @@
-// pages/404.tsx
+import Link from 'next/link';
 
-import React from 'react';
-
-const CustomPage: React.FC = () => {
+const NotFoundPage = () => {
   return (
-    <div>
-      <h1>44 - Page Not Found</h1>
-      <p>Sorry, the page you are looking for could not be found.</p>
+    <div className="container">
+      <h1>404 - Page Not Found</h1>
+      <p>The page you are looking for does not exist.</p>
+      <Link href="/">
+      </Link>
     </div>
   );
 };
 
-export default CustomPage;
+export default NotFoundPage;

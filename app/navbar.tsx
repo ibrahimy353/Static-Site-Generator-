@@ -13,7 +13,7 @@ function NavBar() {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
               <Link href="/">
-                <h2 className="text-2xl text-cyan-600 font-bold ">Ibrahim SSG.</h2>
+                <h2 className="text-2xl text-cyan-600 font-bold ">Ibrahim SSG</h2>
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
@@ -22,10 +22,10 @@ function NavBar() {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src="/close.svg" width={30} height={30} alt="logo" />
+                    <Image src="/hamburger-menu.png" width={30} height={30} alt="logo" />
                   ) : (
                     <Image
-                      src="/hamburger-menu.svg"
+                      src="/hamburger-menu.png"
                       width={30}
                       height={30}
                       alt="logo"

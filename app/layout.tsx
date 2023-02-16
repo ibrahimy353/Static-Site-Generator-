@@ -45,7 +45,7 @@ export default function RootLayout({
     <head />
     
     <body>
-      <div className="mx-auto max-w-10x6 px-10 " >
+      <div className="mx-auto max-w-2xl px-10 " >
         <NavBar/>
         {header}
         {children}

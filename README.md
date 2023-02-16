@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) .
+This is a [Next.js] and Tailwind CSS project .
 
 site link: https://ibra-ssg.vercel.app
 

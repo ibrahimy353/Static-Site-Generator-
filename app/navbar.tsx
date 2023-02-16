@@ -20,7 +20,7 @@ function NavBar() {
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
-                >
+                >Menu
                   {navbar ? (
                     <Image src="/hamburger-menu.png" width={30} height={30} alt="logo" />
                   ) : (

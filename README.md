@@ -87,12 +87,14 @@ To deploy this project and share with friends. after editing to your desire, get
 
 ## Acknowledgements
 
+ - [How to used Marked dependancies.](https://www.npmjs.com/package/marked)
+ - [How to use gray-matter dependancies.](https://github.com/jonschlinkert/gray-matter).
+ 
  - [For writing readme I used this site](https://readme.so/) 
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme by Hillary  Nyakundi](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
  - [For converting word document to  markdown (.md file) I used this site](https://alldocs.app/convert-word-docx-to-markdown).
-  
-
+ 
 
 ## Badges
 

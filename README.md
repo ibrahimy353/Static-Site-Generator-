@@ -6,7 +6,7 @@ Next JS SSG/Blog is a static site generator project built using the Next.js arch
 This project is a static site generator (SSG) designed to convert Markdown pages into a fully functional website. By taking a folder of Markdown files as input, and it then generates a static website that can be easily hosted and accessed by users. This allows users to quickly and easily create and manage a website without the need for complex setup or maintenance. With my project, users can focus on creating content, while the SSG takes care of the technical details of website generation.
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@ibrahimy353](https://ibrahim-yusuf.netlify.app)
 
 
 ## Features To be expected in the Demo website 

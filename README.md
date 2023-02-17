@@ -11,10 +11,10 @@ This project is a static site generator (SSG) designed to convert Markdown pages
 
 ## Features To be expected in the Demo website 
 
-- Light/dark mode toggle
 - Live previews
 - Fullscreen mode
 - Cross platform
+- Tap the page logo 💎💎to go back to homepage
 
 
 ## Demo Link To the Site I created.
@@ -28,7 +28,9 @@ site link: https://ibra-ssg.vercel.app
 * How to get started and run it locally
 * Deploying the Static Site on Host you like.
 * Acknowledgement
-* 
+* Badges
+* Known Issues
+* Cotribution
 
 ## Project Work Flow
 
@@ -83,7 +85,11 @@ To deploy this project run
 
 ## Badges
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)]
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
 
 ## Known Issues
+## Contributing
+
+Contributions are always welcome!
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

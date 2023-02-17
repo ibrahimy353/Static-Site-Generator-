@@ -22,7 +22,7 @@ This project is a static site generator (SSG) designed to convert Markdown pages
 site link: https://ibra-ssg.vercel.app
 
 
-## Appendix
+## Table of Contents.
 
 * Project workflow
 * How to get started and run it locally
@@ -78,9 +78,11 @@ To deploy this project run
 
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [For writing readme I used this site](https://readme.so/) 
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [How to write a Good readme by Hillary  Nyakundi](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+ - [For converting word document to  markdown (.md file) I used this site](https://alldocs.app/convert-word-docx-to-markdown).
+  
 
 
 ## Badges

@@ -7,18 +7,18 @@ cover_image: '/public/images/posts/img3.jpg'
 
 
 
-# `       `**IBRAHIM YUSUF HUSSEIN**
+#        **IBRAHIM YUSUF HUSSEIN**
 P.O Box 554-00208, Ngong-Hills 
 
 Phone: - 0797-888-041 
 
 Email:   ibrahim353yusuf@gmail.com.
-# ![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)       **Personal Profile**
+#        **Personal Profile**
 I am a creative and self-driven web developer and Electrical and Electronics Engineer with 3 years of experience in Automation Engineering in the Oil and Gas industry. Additionally, I have 1.5 years of experience as a freelance web developer, looking to utilize my skills to build and develop efficient technical solutions in software development.
-# ![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)**Career Objectives**
+# **Career Objectives**
 My focus is on being a valuable team member who contributes through learning, sharing and accomplishing set goals. Furthermore, I aim to apply my industry experience to enhance existing products and services.
-# ![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)**Skills**
-# **•** Languages: JavaScript, React JS, HTML5, CSS3, Node JS (Express).
+# **Skills**
+• Languages: JavaScript, React JS, HTML5, CSS3, Node JS (Express).
 • Database: MongoDB. 
 
 • Version Control: Git and GitHub/GitLab.
@@ -29,20 +29,20 @@ My focus is on being a valuable team member who contributes through learning, sh
 
 • Familiarity with SEO and Google analytics .
 
-# `       `**Projects.** 
-# ![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)**• Personal Portfolio** - I designed and coded this portfolio website using React JS, JavaScript, HTML, CSS, and SASS. The main focus was to develop a responsive and user-friendly website with cross-browser compatibility**. [Here](https://ibrahim-yusuf.netlify.app/)** is the link to the site. 
-# • **Demo Coffee Site Front-end** - I designed and coded this demo weather application using React JS, JavaScript, HTML, and CSS. Accessible design practices were used to ensure the site is usable by all users. [Here](https://dopiocoffee.vercel.app/) is the link to the project.
-# **• Movie Review Website** - I designed and coded this demo movie web application using React JS, React Bootstrap, JavaScript, HTML, CSS, and TheMovieDB API. The goal was to create a responsive design for a great user experience on all devices**. [Here](https://trekmovie.onrender.com/)** is the link to the site.
-# • **Gym Fitness Website** - I designed this project using JavaScript, HTML, and CSS and ensured a responsive design for a seamless experience on all devices. **[Here](https://trekfitness.netlify.app/)** is link to the project.
+   #  **Projects.** 
+• Personal Portfolio** - I designed and coded this portfolio website using React JS, JavaScript, HTML, CSS, and SASS. The main focus was to develop a responsive and user-friendly website with cross-browser compatibility**. [Here](https://ibrahim-yusuf.netlify.app/)** is the link to the site. 
+• **Demo Coffee Site Front-end** - I designed and coded this demo weather application using React JS, JavaScript, HTML, and CSS. Accessible design practices were used to ensure the site is usable by all users. [Here](https://dopiocoffee.vercel.app/) is the link to the project.
+**• Movie Review Website** - I designed and coded this demo movie web application using React JS, React Bootstrap, JavaScript, HTML, CSS, and TheMovieDB API. The goal was to create a responsive design for a great user experience on all devices**. [Here](https://trekmovie.onrender.com/)** is the link to the site.
+ • **Gym Fitness Website** - I designed this project using JavaScript, HTML, and CSS and ensured a responsive design for a seamless experience on all devices. **[Here](https://trekfitness.netlify.app/)** is link to the project.
 • **Omirieri Advocates Site** - I developed this website using CMS WordPress and basic CSS to customize some features. The design is accessible for all users. View the site [here](https://omirieriadvocates.com/).	
 
-![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)				 **Links**
+				 **Links**
 
 More of my projects can be found on my GitHub page together with the code syntax of projects above. [Here](https://github.com/ibrahimy353).
 
 Link to my personal portfolio. [Here](https://ibrahim-yusuf.netlify.app/).
-# **Professional Experience![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)**
-`   `**Nexgen Fuel Works**	
+# **Professional Experience**
+   **Nexgen Fuel Works**	
 
 Automation and Controls Engineer
 
@@ -101,9 +101,9 @@ Assistant IT Trainee (April 2015-Dec 2017). Responsibilities included:
 • Providing comprehensive computer networking solution** to enhance organizational
 
 efficiency.
-# **•** Offering technical support and troubleshooting services for computer systems and peripherals.
-# **•** Conducting product sales and marketing.
-#
+• Offering technical support and troubleshooting services for computer systems and peripherals.
+• Conducting product sales and marketing.
+
 # **Dot-com Computer and Laptop Repair**
 IT intern (Jan 2013-Sep 2014). The roles that I conducted were:
 
@@ -112,23 +112,22 @@ IT intern (Jan 2013-Sep 2014). The roles that I conducted were:
 • Data recovery of lost data from corrupted computers and servers.
 
 • Conducting computer networking services for private companies and offices.
-# **Education![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)**
+# **Education**
 2013 – 2019: Technical University of Kenya
 
 B. Eng. Electrical and Electronic Engineering (Automation and Control option)
 
 **Certification**
 
-1. ![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)Google fundamentals of digital marketing.
+1. Google fundamentals of digital marketing.
 1. Bachelors of Engineering in Electrical and Electronics
 1. Agile and Scrum Fundamentals.
 1. AWS certified cloud practitioner (currently undertaking it under Udemy).
-# `         `**Interests and Hobbies**
-# ![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.002.png)
+#          **Interests and Hobbies**
 1. Reading on self-improvement books, Engineering and environment topics.
 1. Physical training and exercise.
 
-`						`**Referees**
+#						**Referees**
 
-![](Aspose.Words.a52dcc13-138c-4788-a2a7-8f77f00c2bc8.001.png)Available upon request.
+Available upon request.
 

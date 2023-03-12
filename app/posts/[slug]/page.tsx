@@ -24,13 +24,17 @@ const PostPage = (props: any) => {
   const slug = props.params.slug;//the .slug can be any name that u have used in the square brackets
   const post= getPostContent(slug); 
   return (
-    <div className="my-12 text-center">
-      <h1  className="text-2x1 text-slate-600">{post.data.title}</h1>
-      <p className="text-slate-400 mt-2">{post.data.date}</p>
-      <article className="prose prose-slate">
-        <Markdown>{post.content}</Markdown>
-      </article>
+    <div>
+     <div className="my-12 text-center">
+       <h1  className="text-2xl text-slate-600">{post.data.title}</h1>
+       <p className="text-slate-400 mt-2">{post.data.date}</p>
+     </div>
+       <article className="prose prose-slate">
+         <Markdown>{post.content}</Markdown>
+       </article>
     </div>
+
+   
   );
 };
  export default PostPage;

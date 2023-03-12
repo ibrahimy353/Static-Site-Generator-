@@ -20,7 +20,7 @@ export default function RootLayout({
         />
         <Link href="/">
           <h1 className="text-3xl text-white font-bold mt-3">
-            Ibrahim SSG
+            Ibrahim Blog
           </h1>
         </Link>
 

@@ -16,7 +16,6 @@ in.
 2. Et premis et flumine frontem minatur oppressos
 3. Inquam rector Icarus possum vim tumulo propiusque
 4. Vulnus se Latreus
-5. Aptumque bis
 
 ## Turpius Aegides membris colat volentes fallere
 

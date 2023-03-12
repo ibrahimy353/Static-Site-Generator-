@@ -32,9 +32,11 @@ My focus is on being a valuable team member who contributes through learning, sh
    #  **Projects.** 
 • Personal Portfolio** - I designed and coded this portfolio website using React JS, JavaScript, HTML, CSS, and SASS. The main focus was to develop a responsive and user-friendly website with cross-browser compatibility**. [Here](https://ibrahim-yusuf.netlify.app/)** is the link to the site. 
 • **Demo Coffee Site Front-end** - I designed and coded this demo weather application using React JS, JavaScript, HTML, and CSS. Accessible design practices were used to ensure the site is usable by all users. [Here](https://dopiocoffee.vercel.app/) is the link to the project.
-**• Movie Review Website** - I designed and coded this demo movie web application using React JS, React Bootstrap, JavaScript, HTML, CSS, and TheMovieDB API. The goal was to create a responsive design for a great user experience on all devices**. [Here](https://trekmovie.onrender.com/)** is the link to the site.
- • **Gym Fitness Website** - I designed this project using JavaScript, HTML, and CSS and ensured a responsive design for a seamless experience on all devices. **[Here](https://trekfitness.netlify.app/)** is link to the project.
-• **Omirieri Advocates Site** - I developed this website using CMS WordPress and basic CSS to customize some features. The design is accessible for all users. View the site [here](https://omirieriadvocates.com/).	
+**• Movie Review Website** - I designed and coded this demo movie web application using React JS, React Bootstrap, JavaScript, HTML, CSS, and TheMovieDB API. The goal was to create a responsive sesign for a great user experience on all devices**. [Here](https://trekmovie.onrender.com/)** is the link to the site.
+- **Gym Fitness Website** - I designed this project using JavaScript, HTML, and CSS and ensured a responsive design for a seamless experience on all devices. **[Here](https://trekfitness.netlify.app/)** is link to the project.
+- **Omirieri Advocates Site** - I developed this website using CMS WordPress and basic CSS to customize some features. The design is accessible for all users. View the site [here](https://omirieriadvocates.com/).	
+- latest project
+![chrome-capture-2023-2-9 (1)](https://user-images.githubusercontent.com/85551204/224000357-dc93ba09-b5f6-4e29-9ea7-58ba7025019d.gif)
 
 				 **Links**
 
@@ -119,10 +121,10 @@ B. Eng. Electrical and Electronic Engineering (Automation and Control option)
 
 **Certification**
 
-1. Google fundamentals of digital marketing.
+1. Google fundamentals of digital marketing.   
 1. Bachelors of Engineering in Electrical and Electronics
 1. Agile and Scrum Fundamentals.
-1. AWS certified cloud practitioner (currently undertaking it under Udemy).
+1. AWS certified cloud practitioner (Udemy).
 #          **Interests and Hobbies**
 1. Reading on self-improvement books, Engineering and environment topics.
 1. Physical training and exercise.

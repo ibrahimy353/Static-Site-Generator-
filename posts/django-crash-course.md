@@ -1,6 +1,6 @@
 ---
 title: '3D Developer Portfolio'
-date: 'March 5, 2021'
+date: 'March 17, 2023'
 subtitle: '3D Portfolio designed by Three js, Tailwind CSS, and Framer Motion '
 ---
 

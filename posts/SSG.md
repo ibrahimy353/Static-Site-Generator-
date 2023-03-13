@@ -1,7 +1,7 @@
 ---
-title: 'Creating a Blog using Next JS and Markdown'
+title: 'Creating a Blog using Next JS 13 and Markdown'
 date: 'March 12, 2023'
-subtitle: 'Creating a Static Site Generator using Next js'
+subtitle: 'Creating a Static Site Generator using Next JS 13'
 ---
 # Why should You create a blog?
 
@@ -16,10 +16,10 @@ Why Use a Markdown file format as part of creating the blog.
 
 Before starting to design on how I wanted the blog to appear, Its important to know the flow in which the written information on the markdown folder will be converted upto the last step of getting the output. Bellow is the workflow diagram on how we shall get the desired output.  
 
-Here is a rough idea of how the project will flow. Picture design setup.
+Here is a rough idea of how the project will flow. The Markdown file is converted into HTML using a static site generator (SSG). Picture design setup.
   ![workflow](https://user-images.githubusercontent.com/85551204/219668894-57f8fb0a-332c-43e4-9784-11a9494b2bc0.JPG)
 
-Once the information is fully processed on your end then you can then get share the new blog post.
+Once the HTML files created we can then host it on to a web server and made available to visitors
 ![workflow2](https://user-images.githubusercontent.com/85551204/219674838-e7bb1a3c-f52d-4d49-b122-a729a6664e8d.JPG)
 
 Now that we know the flow of how the site will come about then let's get to the most exciting part of the project. That's coding the blog using Next JS, Tailwind CSS and MD.
@@ -27,5 +27,10 @@ Now that we know the flow of how the site will come about then let's get to the 
 Onto your favorite text editor.
 - Generate a new Next JS app. npm init next-app@latest
 - cd into the new folder
-- create a folder called components
-- create a Header and Footer component
+- create a folder called app
+- create a file called Header and Footer component
+
+
+```bash
+  cd my-project
+```

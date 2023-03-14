@@ -16,21 +16,18 @@ Why Use a Markdown file format as part of creating the blog.
 
 Before starting to design on how I wanted the blog to appear, Its important to know the flow in which the written information on the markdown folder will be converted upto the last step of getting the output. Bellow is the workflow diagram on how we shall get the desired output.  
 
-Here is a rough idea of how the project will flow. The Markdown file is converted into HTML using a static site generator (SSG). Picture design setup.
+The Markdown file is converted into HTML using a static site generator (SSG) that I created using Next Js and Tailwind CSS for styling. Picture design setup.
   ![workflow](https://user-images.githubusercontent.com/85551204/219668894-57f8fb0a-332c-43e4-9784-11a9494b2bc0.JPG)
 
 Once the HTML files created we can then host it on to a web server and made available to visitors
 ![workflow2](https://user-images.githubusercontent.com/85551204/219674838-e7bb1a3c-f52d-4d49-b122-a729a6664e8d.JPG)
 
-Now that we know the flow of how the site will come about then let's get to the most exciting part of the project. That's coding the blog using Next JS, Tailwind CSS and MD.
-##  CREATING THE BLOG.
+##  CREATING THE BLOG. 
 Onto your favorite text editor.
 - Generate a new Next JS app. npm init next-app@latest
 - cd into the new folder
-- create a folder called app
-- create a file called Header and Footer component
+- Create a folder called app
+- Create a file called head, Layout, navbar, and page.tsx.
+- On root folder create another folder and name it 'components' inside it add this files 
 
 
-```bash
-  cd my-project
-```

@@ -19,7 +19,7 @@ Before starting to design on how I wanted the blog to appear, Its important to k
 The Markdown file is converted into HTML using a static site generator (SSG) that I created using Next Js and Tailwind CSS for styling. Picture design setup.
   ![workflow](https://user-images.githubusercontent.com/85551204/219668894-57f8fb0a-332c-43e4-9784-11a9494b2bc0.JPG)
 
-Once the HTML files created we can then host it on to a web server and made available to visitors
+Once the HTML files are created we can then host it on to a web server and made available to visitors
 ![workflow2](https://user-images.githubusercontent.com/85551204/219674838-e7bb1a3c-f52d-4d49-b122-a729a6664e8d.JPG)
 
 ##  CREATING THE BLOG. 
@@ -40,15 +40,15 @@ the routing and layout structure of the React Framework Directory. [Next Js Docs
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`.
 - On root folder create another folder and name it 'components' inside it add this files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.
-- Finaly to view the next app use the terminal run 
+- Finaly to view the next app on the command terminal run the following; 
 
 ```bash
 npm run dev
 ```
-and view the app Open [http://localhost:3000](http://localhost:3000/) with your browser to see the result.
+View through port [http://localhost:3000](http://localhost:3000/) on your browser to see the result.
 
 
-Once done then lets jump into coding the blog. To begin with we shall start with creating the head section
+To begin with we shall start with creating the head section
 that is the favicon seen on top of the website.
 **Paste this inside /app/head.tsx** 
 
@@ -63,7 +63,7 @@ export default function Head() {
   )
 }
 ```
-Inside the **/app/layout.tsx** paste this code bellow. Inside this code we get to add permernant components/building blocks of the blog
+Inside the **/app/layout.tsx** paste the code bellow. Inside this code we get to add permernant components/building blocks of the blog
 that will appear on each page thats the navbar, header, and footer and styled them with tailwind.CSS.
 
 ```dotnetcli
@@ -80,26 +80,17 @@ export default function RootLayout({
   const header = (
     <header>
       <div className="text-center bg-slate-500 p-8 my-6 rounded-md">
-        <Image
-          src="/logo.png"
-          width={60}
-          height={60}
-          className="mx-auto"
-          alt={""}
+        <Image src="/logo.png" width={60} height={60} className="mx-auto" alt={""}
         />
         <Link href="/">
-          <h1 className="text-3xl text-white font-bold mt-3">
-            Ibrahim Blog
-          </h1>
+          <h1 className="text-3xl text-white font-bold mt-3">Ibrahim Blog</h1>
         </Link>
-
         <p className="text-slate-300">
           Welcome to my static site generator
         </p>
       </div>
     </header>
   );
-
   const footer = (
     <footer>
       <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-400">
@@ -107,7 +98,6 @@ export default function RootLayout({
       </div>
     </footer>
   );
-
   return (
     <html lang="en">
     {}
@@ -126,5 +116,32 @@ export default function RootLayout({
 };
 
 ```
-Because
+
+**Getting information from the .md file inside** 
+This is acheived through geting geting post from the .md files which you can get to copy the files [here](https://github.com/ibrahimy353/.md-files). Inside **/components/getPostMetaData** copy this code bellow. 
+
+```javascript
+import  fs  from "fs";
+import matter from "gray-matter";
+import { PostMetadata } from "../components/PostMetadata";
+
+const getPostMetadata = (): PostMetadata[] =>{
+    const folder = "posts/";
+    const files = fs.readdirSync(folder);
+    const markdownPosts = files.filter ((file) => file.endsWith (".md"));
+    
+    const posts = markdownPosts.map((fileName) => {
+      const fileContents = fs.readFileSync(`posts/${fileName}`, "utf-8");
+      const matterResult = matter(fileContents);
+      return {
+        title : matterResult.data.title,
+        date: matterResult.data.date,
+        subtitle: matterResult.data.subtitle,
+        slug: fileName.replace(".md", ""), 
+      };
+    }); 
+    return posts;
+  };
+  export default getPostMetadata;
+```
 

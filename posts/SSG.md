@@ -34,8 +34,8 @@ Onto your favorite text editor.
 ```bash
   cd my-project
 ```
-- Since we are using the latest Next JS 13 which changed it's feature in how we set up
-the routing and layout structure of the React Framework Directory. [Next Js Docs.](https://nextjs.org/blog/next-13).
+Since we are using the latest Next JS 13 which changed it's feature in how we set up
+the routing and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs.](https://nextjs.org/blog/next-13).
 - On the root folder Create a files called  **/app.** and add this create this  files.
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`.
 - On root folder create another folder and name it 'components' inside it add this files 
@@ -45,7 +45,7 @@ the routing and layout structure of the React Framework Directory. [Next Js Docs
 ```bash
 npm run dev
 ```
-View through port [http://localhost:3000](http://localhost:3000/) on your browser to see the result.
+View the Next JS app through port [http://localhost:3000](http://localhost:3000/) on your browser to see the result.
 
 
 To begin with we shall start with creating the head section
@@ -117,8 +117,7 @@ export default function RootLayout({
 
 ```
 
-**Getting information from the .md file inside** 
-This is acheived through geting geting post from the .md files which you can get to copy the files [here](https://github.com/ibrahimy353/.md-files). Inside **/components/getPostMetaData** copy this code bellow. 
+To **Get information from the .md (markdown) file inside** This is acheived through geting geting post from the .md files which you can get to copy the files [here](https://github.com/ibrahimy353/.md-files). Inside **/components/getPostMetaData** copy this code bellow. 
 
 ```javascript
 import  fs  from "fs";

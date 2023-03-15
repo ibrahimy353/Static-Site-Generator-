@@ -35,7 +35,33 @@ Onto your favorite text editor.
   cd my-project
 ```
 - Create a folder called app
-- Create a file called head, Layout, navbar, and page.tsx.
+- Create a files called  
+`head.tsx, Layout.tsx, navbar.tsx, and page.tsx`.
 - On root folder create another folder and name it 'components' inside it add this files 
+`getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.
+- Finaly to view the next app use the terminal run 
+
+```bash
+npm run dev
+```
+and view the app Open [http://localhost:3000](http://localhost:3000/) with your browser to see the result.
+
+
+Once done then lets jump into coding the blog. To begin with we shall start with creating the head section that is the favicon seen on top of the website.
+**Paste this inside head.tsx** 
+
+```bash
+export default function Head() {
+  return (
+    <>
+      <title>Name of your Blog</title>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <link rel="icon" href="/favicon.ico" />
+    </>
+  )
+}
+```
+Since Next Js according to documentation allows us to 
+
 
 

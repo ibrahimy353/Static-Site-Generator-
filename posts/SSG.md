@@ -19,7 +19,7 @@ Before starting to design on how I wanted the blog to appear, Its important to k
 The Markdown file is converted into HTML using a static site generator (SSG) that I created using Next Js and Tailwind CSS for styling. Picture design setup.
   ![workflow](https://user-images.githubusercontent.com/85551204/219668894-57f8fb0a-332c-43e4-9784-11a9494b2bc0.JPG)
 
-Once the HTML files are created we can then host it on to a web server and made available to visitors
+Once the HTML files are created we can then host it on to a web server and make it available to visitors
 ![workflow2](https://user-images.githubusercontent.com/85551204/219674838-e7bb1a3c-f52d-4d49-b122-a729a6664e8d.JPG)
 
 ##  CREATING THE BLOG. 
@@ -63,7 +63,7 @@ export default function Head() {
   )
 }
 ```
-Inside the **/app/layout.tsx** paste the code bellow. Inside this code we get to add permernant components/building blocks of the blog
+Inside the **/app/layout.tsx** paste the code bellow. Through this code we get to add permernant components/building blocks of the blog
 that will appear on each page thats the navbar, header, and footer and styled them with tailwind.CSS.
 
 ```dotnetcli
@@ -117,7 +117,7 @@ export default function RootLayout({
 
 ```
 
-To **Get information from the .md (markdown) file inside** This is acheived through geting geting post from the .md files which you can get to copy the files [here](https://github.com/ibrahimy353/.md-files). Inside **/components/getPostMetaData** copy this code bellow. 
+To **Get information from the .md (markdown) file** we pass the data through getPostMetadata using the code bellow. Copy paste it to your **/components/getPostMetaData**. 
 
 ```javascript
 import  fs  from "fs";
@@ -143,4 +143,4 @@ const getPostMetadata = (): PostMetadata[] =>{
   };
   export default getPostMetadata;
 ```
-
+You can copy metadata from this repo [here](https://github.com/ibrahimy353/.md-files), create a folder on the root app and name it **posts/.md**.

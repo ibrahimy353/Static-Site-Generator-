@@ -34,8 +34,9 @@ Onto your favorite text editor.
 ```bash
   cd my-project
 ```
-- Create a folder called app
-- Create a files called  
+- Since we are using the latest Next JS 13 which changed it's feature in how we set up
+the routing and layout structure of the React Framework Directory. [Next Js Docs.](https://nextjs.org/blog/next-13).
+- On the root folder Create a files called  **/app.** and add this create this  files.
 `head.tsx, Layout.tsx, navbar.tsx, and page.tsx`.
 - On root folder create another folder and name it 'components' inside it add this files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.

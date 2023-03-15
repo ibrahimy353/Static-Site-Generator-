@@ -24,8 +24,16 @@ Once the HTML files created we can then host it on to a web server and made avai
 
 ##  CREATING THE BLOG. 
 Onto your favorite text editor.
-- Generate a new Next JS app. npm init next-app@latest
+- Generate a new Next JS app.
+
+```bash
+  npm init next-app@latest
+```
 - cd into the new folder
+
+```bash
+  cd my-project
+```
 - Create a folder called app
 - Create a file called head, Layout, navbar, and page.tsx.
 - On root folder create another folder and name it 'components' inside it add this files 

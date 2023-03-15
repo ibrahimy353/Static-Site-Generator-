@@ -8,7 +8,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  
   const header = (
+ 
     <header>
       <div className="text-center bg-slate-500 p-8 my-6 rounded-md">
         <Image
@@ -54,4 +56,6 @@ export default function RootLayout({
       </body>
   </html>
   );
-}
+};
+
+

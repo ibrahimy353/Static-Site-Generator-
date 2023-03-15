@@ -37,7 +37,7 @@ Onto your favorite text editor.
 - Since we are using the latest Next JS 13 which changed it's feature in how we set up
 the routing and layout structure of the React Framework Directory. [Next Js Docs.](https://nextjs.org/blog/next-13).
 - On the root folder Create a files called  **/app.** and add this create this  files.
-`head.tsx, Layout.tsx, navbar.tsx, and page.tsx`.
+`head.tsx, layout.tsx, navbar.tsx, and page.tsx`.
 - On root folder create another folder and name it 'components' inside it add this files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.
 - Finaly to view the next app use the terminal run 
@@ -52,7 +52,7 @@ Once done then lets jump into coding the blog. To begin with we shall start with
 that is the favicon seen on top of the website.
 **Paste this inside /app/head.tsx** 
 
-```bash
+```javascript
 export default function Head() {
   return (
     <>

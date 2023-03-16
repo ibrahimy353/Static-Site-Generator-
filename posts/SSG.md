@@ -22,7 +22,7 @@ The Markdown file is converted into HTML using a static site generator (SSG) tha
 Once the HTML files are created we can then host it on to a web server and make it available to visitors
 ![workflow2](https://user-images.githubusercontent.com/85551204/219674838-e7bb1a3c-f52d-4d49-b122-a729a6664e8d.JPG)
 
-##  CREATING THE BLOG. 
+##  Setting Up the Project 
 Onto your favorite text editor.
 - Generate a new Next JS app.
 
@@ -47,7 +47,7 @@ npm run dev
 ```
 View the Next JS app through port [http://localhost:3000](http://localhost:3000/) on your browser to see the result.
 
-
+## Creating the Blog
 To begin with we shall start with creating the head section
 that is the favicon seen on top of the website.
 **Paste this inside /app/head.tsx** 
@@ -143,6 +143,9 @@ const getPostMetadata = (): PostMetadata[] =>{
   };
   export default getPostMetadata;
 ```
-You can copy metadata from this repo [here](https://github.com/ibrahimy353/.md-files), create a folder on the root app and name it **posts/.md**.
+You can copy metadata from this repo [here](https://github.com/ibrahimy353/.md-files), then paste it on the a new folder that we shall create  on the root app and name it **posts**.
 
 In order to render the Metadata collected using code above from markdown (.md) file, we use **gray-matter** to help with parsing front matter from string to file, using **markdown to jsx** 3rd party package assist in converting the markdown language to JSX file system which we get to pass the data using babel in the **postMetadata** to change it to a language that.
+
+Create another folder inside **app** root folder and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs 
+

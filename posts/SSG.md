@@ -145,4 +145,4 @@ const getPostMetadata = (): PostMetadata[] =>{
 ```
 You can copy metadata from this repo [here](https://github.com/ibrahimy353/.md-files), create a folder on the root app and name it **posts/.md**.
 
-In order to render the Metadata collected using code above from  download the package **gray-matter** which helps with parsing front matter from string to file and using **markdown to jsx** 3rd party package gets to 
+In order to render the Metadata collected using code above from markdown (.md)  file we use package **gray-matter** to help with parsing front matter from string to file, using **markdown to jsx** 3rd party package assist in converting the markdown language to JSX file system which we get to pass the data using babel in the **postMetadata** to change it to a language that  

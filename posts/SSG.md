@@ -40,6 +40,8 @@ and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs]
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`.
 - On root folder create another folder and name it 'components' inside it add these files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.
+- On root folder create a folder another folder and call it **Posts** inside it add these markdown files 
+ From this repo [here](https://github.com/ibrahimy353/.md-files).
 - Finally to view the next app on the command terminal run the following; 
 
 ```bash
@@ -126,10 +128,10 @@ import { PostMetadata } from "../components/PostMetadata";
 
 const getPostMetadata = (): PostMetadata[] =>{
     const folder = "posts/";
-// fs.readdirSync synchronously gets to read and return file content of files ending with .md
+// fs.readdirSync synchronously gets to read file content of files ending with .md
     const files = fs.readdirSync(folder);  
     const markdownPosts = files.filter ((file) => file.endsWith (".md"));
-    
+    // get to return content and encode from .md language to utf language. 
     const posts = markdownPosts.map((fileName) => {
       const fileContents = fs.readFileSync(`posts/${fileName}`, "utf-8");
       const matterResult = matter(fileContents);
@@ -137,7 +139,8 @@ const getPostMetadata = (): PostMetadata[] =>{
         title : matterResult.data.title,
         date: matterResult.data.date,
         subtitle: matterResult.data.subtitle,
-        slug: fileName.replace(".md", ""), //this is content being returned from file [slugs]  after being encoded to Utf-8 which can be posted to html static.
+        slug: fileName.replace(".md", ""), 
+//content being returned from file [slugs]  after being encoded to Utf-8 language which can be posted to html web.
       };
     }); 
     return posts;
@@ -145,7 +148,8 @@ const getPostMetadata = (): PostMetadata[] =>{
   export default getPostMetadata;
 ```
 Inside the code just above we get to read file content from the **markdown** file and as well as also return encoded content from **[slug]** 
-file. 
+file.
+
 
 You can copy metadata from this repo [here](https://github.com/ibrahimy353/.md-files), then paste it on the a new folder that we shall create  on the root app and name it **posts**.
 

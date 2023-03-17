@@ -17,6 +17,7 @@ const getPostMetadata = (): PostMetadata[] =>{
         date: matterResult.data.date,
         subtitle: matterResult.data.subtitle,
         slug: fileName.replace(".md", ""),
+         //content being returned from file [slugs]  after being encoded to Utf-8 which can be posted to html static.
       
       };
     });

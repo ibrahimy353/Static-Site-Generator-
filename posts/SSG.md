@@ -34,13 +34,13 @@ Onto your favorite text editor.
 ```bash
   cd my-project
 ```
-Since we are using the latest Next JS 13 which changed it's feature in how we set up
-the routing and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs.](https://nextjs.org/blog/next-13).
-- On the root folder Create a files called  **/app.** and add this create this  files.
+Since we are using the latest Next JS 13 which changed its feature in how we set up the routing 
+and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs](https://nextjs.org/blog/next-13).
+- On the root folder Create a file called **/app**  and add this to create this file and add this to create this file.
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`.
-- On root folder create another folder and name it 'components' inside it add this files 
+- On root folder create another folder and name it 'components' inside it add these files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.
-- Finaly to view the next app on the command terminal run the following; 
+- Finally to view the next app on the command terminal run the following; 
 
 ```bash
 npm run dev

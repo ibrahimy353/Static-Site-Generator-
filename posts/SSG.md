@@ -63,8 +63,8 @@ export default function Head() {
   )
 }
 ```
-Inside the **/app/layout.tsx** paste the code bellow. Through this code we get to add permernant components/building blocks of the blog
-that will appear on each page thats the navbar, header, and footer and styled them with tailwind.CSS.
+Inside the **/app/layout.tsx** paste the code below. Through this code, we get to add permanent components/building blocks of the blog that will appear on each page that the navbar, header, and footer, and styled them with tailwind.CSS.
+
 
 ```dotnetcli
 import Image from "next/image";
@@ -117,7 +117,7 @@ export default function RootLayout({
 
 ```
 
-To **Get information from the .md (markdown) file** we pass the data through getPostMetadata using the code bellow. Copy paste it to your **/components/getPostMetaData**. 
+To **Get information from the Markdown(.md) file** we pass the data through getPostMetadata using the code bellow. Copy paste it to your **/components/getPostMetaData**. 
 
 ```javascript
 import  fs  from "fs";
@@ -126,7 +126,8 @@ import { PostMetadata } from "../components/PostMetadata";
 
 const getPostMetadata = (): PostMetadata[] =>{
     const folder = "posts/";
-    const files = fs.readdirSync(folder);
+// fs.readdirSync synchronously gets to read and return file content of files ending with .md
+    const files = fs.readdirSync(folder);  
     const markdownPosts = files.filter ((file) => file.endsWith (".md"));
     
     const posts = markdownPosts.map((fileName) => {
@@ -136,16 +137,19 @@ const getPostMetadata = (): PostMetadata[] =>{
         title : matterResult.data.title,
         date: matterResult.data.date,
         subtitle: matterResult.data.subtitle,
-        slug: fileName.replace(".md", ""), 
+        slug: fileName.replace(".md", ""), //this is content being returned from file [slugs]  after being encoded to Utf-8 which can be posted to html static.
       };
     }); 
     return posts;
   };
   export default getPostMetadata;
 ```
+Inside the code just above we get to read file content from the **markdown** file and as well as also return encoded content from **[slug]** 
+file. 
+
 You can copy metadata from this repo [here](https://github.com/ibrahimy353/.md-files), then paste it on the a new folder that we shall create  on the root app and name it **posts**.
 
-In order to render the Metadata collected using code above from markdown (.md) file, we use **gray-matter** to help with parsing front matter from string to file, using **markdown to jsx** 3rd party package assist in converting the markdown language to JSX file system which we get to pass the data using babel in the **postMetadata** to change it to a language that.
+To render the Metadata collected using code above from markdown(.md) file, we use **gray-matter** to help with parsing front matter from string to file, we also use **markdown to jsx** 3rd party package assist in converting the markdown language to JSX file system that we get to pass the data using babel in the **postMetadata** to change it to a language that.
 
 Create another folder inside **app** root folder and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs 
 

@@ -119,7 +119,7 @@ export default function RootLayout({
 
 ```
 
-To **Get information from the Markdown(.md) file** we pass the data through getPostMetadata using the code bellow. Copy paste it to your **/components/getPostMetaData**. 
+To **Get information from the Markdown(.md) file** we pass the data through getPostMetadata using the code bellow. Copy paste it to your **/components/getPostMetaData** file. 
 
 ```javascript
 import  fs  from "fs";

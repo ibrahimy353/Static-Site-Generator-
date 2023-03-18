@@ -152,5 +152,5 @@ file.
 
 To render the Metadata collected using code above from markdown(.md) file, we use **gray-matter** to help with parsing front matter from string to file, we also use **markdown to jsx** 3rd party package assist in converting the markdown language to JSX file system that we get to pass the data using babel in the **postMetadata** to change it to a language that.
 
-Create another folder inside **app** root folder and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code bellow
+Create another folder and inside **app** root folder and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code bellow
 

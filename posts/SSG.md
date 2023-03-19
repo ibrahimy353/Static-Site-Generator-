@@ -152,7 +152,7 @@ file.
 
 To render the Metadata collected using code above from markdown(.md) file, we use **gray-matter** to help with parsing front matter from string to file, we also use **markdown to jsx** 3rd party package assist in converting the markdown language to JSX file system that we get to pass the data using babel in the **postMetadata** to change it to a language that.
 
-Create a new dynamic route folder on the root folder **app** and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code bellow. For more infomation on dynamic routes [click here](https://nextjs.org/docs/routing/dynamic-routes) on Next JS 
+Create a new dynamic route folder on the root folder **app** and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code bellow. For more infomation on dynamic routes [click here](https://nextjs.org/docs/routing/dynamic-routes/) on Next JS 
 
 ```dotnetcli
 import fs from "fs";

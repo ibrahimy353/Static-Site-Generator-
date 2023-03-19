@@ -1,6 +1,6 @@
 ---
 title: 'Creating a Blog using Next JS 13 and Markdown'
-date: 'March 12, 2023'
+date: 'March 23, 2023'
 subtitle: 'Creating a Static Site Generator using Next JS 13'
 ---
 # Why should You create a blog?

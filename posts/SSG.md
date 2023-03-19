@@ -155,7 +155,7 @@ To render the Metadata collected using code above from markdown(.md) file, we us
 Create another folder and inside **app** root folder and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code bellow
 
 ```dotnetcli
-    import fs from "fs";
+import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetadata from "@/components/getPostMetadata";
@@ -194,3 +194,5 @@ const PostPage = (props: any) => {
 };
  export default PostPage;
 ```
+Through the code above we get the convert the markdown file from language markdown 
+language and encode it using utf to staticaly language that can be displayed on the electronic screen.

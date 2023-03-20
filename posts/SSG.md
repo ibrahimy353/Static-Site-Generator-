@@ -197,6 +197,5 @@ const PostPage = (props: any) => {
 Through the code above we get the convert the markdown matter content which is the data bellow font matter (data between -ve sign )
 ![font matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
 and encode it using utf to language that can be displayed on the electronic screen. 
-To generate a list of all the files paths that will be inside the **posts/** folder staticaly, we use the Next JS feature that allows us to 
-staticaly render the converted markdown files pages through **[slug]**from dynamic to static site thus anabling it's loading performance.
-More information on (generateStaticParams)[https://beta.nextjs.org/docs/api-reference/generate-static-params].
+To generate a list of all the files paths that will be inside the **posts/** folder staticaly, we use the Next JS feature (generateStaticParams) that allows us to return staticaly rendered converted markdown files pages through **[slug]**from dynamic to static site thus anabling it's loading performance. Through this we have finished returning or rendering the file staticaly and created our first blog.
+More information on [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).

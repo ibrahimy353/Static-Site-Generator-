@@ -68,7 +68,7 @@ export default function Head() {
 Inside the **/app/layout.tsx** paste the code below. Through this code, we get to add permanent components/building blocks of the blog that will appear on each page that the navbar, header, and footer, and styled them with tailwind.CSS.
 
 
-```dotnetcli
+```javascript
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
@@ -154,7 +154,7 @@ To render the Metadata collected using code above from markdown(.md) file, we us
 
 Create a new dynamic route folder on the root folder **app** and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code bellow. For more infomation on dynamic routes [click here](https://nextjs.org/docs/routing/dynamic-routes/) on Next JS 
 
-```dotnetcli
+```javascript
 import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";

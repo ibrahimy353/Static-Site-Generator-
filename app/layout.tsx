@@ -12,7 +12,7 @@ export default function RootLayout({
   const header = (
  
     <header>
-      <div className="text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 my-6 rounded-md">
+      <div className="text-center bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 p-8 my-6 rounded-md">
         {/* <Image
           src="/logo.png"
           width={60}
@@ -21,7 +21,7 @@ export default function RootLayout({
           alt={""}
         /> */}
         <Link href="/">
-          <h1 className="text-3xl text-white font-bold mt-6">
+          <h1 className="text-3xl text-white font-bold mt-10">
             Ibrahim Blog
           </h1>
         </Link>

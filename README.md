@@ -1,7 +1,7 @@
 
 # NEXT JS STATIC SITE GENERATOR/BLOG
 
-Next JS SSG/Blog is a static site generator project built using the Next.js architecture. Next.js provides numerous benefits, such as faster performance and support for server-side rendering, which allows for better scalability and a seamless user experience. In addition, the project features a unique and creative filling system that sets it apart from other similar projects. It also takes advantage of the Tailwind CSS library for easy and efficient styling. With JS SSG/Blog, users can easily create and manage their blog while enjoying the benefits of a fast, scalable, and stylish platform.
+Next JS SSG/Blog is a static site generator project built using the Next.js and Typescript architecture. Next.js provides numerous benefits, such as faster performance and support for server-side rendering, which allows for better scalability and a seamless user experience. In addition, the project features a unique and creative filling system that sets it apart from other similar projects. It also takes advantage of the Tailwind CSS library for easy and efficient styling. With JS SSG/Blog, users can easily create and manage their blog while enjoying the benefits of a fast, scalable, and stylish platform.
 
 This project is a static site generator (SSG) designed to convert Markdown pages into a fully functional website. By taking a folder of Markdown files as input, and it then generates a static website that can be easily hosted and accessed by users. This allows users to quickly and easily create and manage a website without the need for complex setup or maintenance. With my project, users can focus on creating content, while the SSG takes care of the technical details of website generation.
 

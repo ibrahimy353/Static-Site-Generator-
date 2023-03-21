@@ -27,7 +27,7 @@ export default function RootLayout({
         </Link>
 
         <p className="text-slate-300">
-          Welcome to my static site generator
+          Building Stuff for the Internet.
         </p>
       </div>
     </header>

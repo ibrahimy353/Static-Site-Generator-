@@ -40,7 +40,7 @@ and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs]
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the key building blocks of building the website (header, footer, and page that holds the entire children content on the monitor) 
 - On the root folder create another folder and name it 'components' inside it add these files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`. These are route paths of the metadata or markd
-- On the root folder create a folder another folder and call it **Posts** inside it add these markdown files 
+- On the root folder create another folder and call it **Posts** inside it add these markdown files 
  From this repo [here](https://github.com/ibrahimy353/.md-files).
 - Finally to view the next app on the command terminal run the following; 
 
@@ -64,7 +64,7 @@ export default function Head() {
   )
 }
 ```
-To inject custom style to the blog we use Tailwind.css. Copy and paste the code bellow on the **styles/global.css** file.
+To inject custom style to the blog we use Tailwind.css. Copy and paste the code below on the **styles/global.css** file.
 More information on css from these [tailwindcss](https://v1.tailwindcss.com/docs/adding-base-styles).
 
 ```javascript

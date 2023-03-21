@@ -62,15 +62,15 @@ export default function Head() {
   )
 }
 ```
-To inject custom style to the blog we use Tailwind.css. Copy and paste the code below on the **styles/global.css** file.
-More information on css from these [tailwindcss](https://v1.tailwindcss.com/docs/adding-base-styles).
+To inject a custom style into the blog, we use Tailwind.css. Copy and paste the code below on the **styles/global.css** file.
+More information on CSS from these [tailwindcss](https://v1.tailwindcss.com/docs/adding-base-styles) docs.
 
 ```javascript
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```  
-Inside the **/app/layout.tsx** paste the code below. Through this code, we get to add permanent components/building blocks of the blog that will appear on each page that the header, and footer, and styled them with Tailwind.css.
+Inside the **/app/layout.tsx** paste the code below. Through this code, we got to add permanent components/building blocks of the blog that will appear on each page, the header, and the footer and styled them with Tailwind.css.
 
 
 ```javascript
@@ -150,12 +150,11 @@ const getPostMetadata = (): PostMetadata[] =>{
   };
   export default getPostMetadata;
 ```
-Inside the code just above we get to read file content from the **markdown** file and as well as also return encoded content from **[slug]** 
-file.
+Inside the code just above, we get to read file content from the **markdown** file and as well as also return encoded content from **[slug]** file.
 
-To render the Metadata collected using the code above from the markdown(.md) file, we use **gray-matter** to help with parsing front matter from string to file, we also use **markdown to jsx** 3rd party package to assist in converting the markdown language to JSX file to system that we get to pass the data using babel in the **postMetadata** to change it to a language that.
+To render the Metadata collected using the code above from the markdown(.md) file, we use **gray matter** to help with parsing the front matter from string to file. We also use **markdown to jsx** 3rd party package to assist in converting the markdown language to JSX file to a system that we get to pass the data using babel in the **postMetadata** to change it to a language that.
 
-Create a new dynamic route folder on the root folder **app** and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code below. For more information on dynamic routes click here on [Next JS](https://nextjs.org/docs/routing/dynamic-routes/) .
+Create a new dynamic route folder on the root folder **'app'**, naming it **app/posts/[slugs]**. Add a file **page.tsx**. Inside the **page.tsx**, add the code below. For more information on dynamic routes, click here on [Next JS](https://nextjs.org/docs/routing/dynamic-routes/) .
 
 ```javascript
 import fs from "fs";

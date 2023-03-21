@@ -21,7 +21,7 @@ export default function RootLayout({
           alt={""}
         /> */}
         <Link href="/">
-          <h1 className="text-3xl text-white font-bold mt-3">
+          <h1 className="text-3xl text-white font-bold mt-6">
             Ibrahim Blog
           </h1>
         </Link>

@@ -1,5 +1,5 @@
 ---
-title: 'Creating a Blog using Next JS 13 and Markdown'
+title: 'Creating a Blog using Next JS 13, Typescript and Markdown'
 date: 'March 23, 2023'
 subtitle: 'Creating a Static Site Generator using Next JS 13'
 ---
@@ -36,7 +36,7 @@ Onto your favorite text editor.
 ```
 Since we are using the latest Next JS 13 which changed its feature in how we set up the routing 
 and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs](https://nextjs.org/blog/next-13).
-- On the root folder Create a file called **/app**  and add this to create this file and add this to create this file.
+- On the root folder Create a file called **/app**  and add these files.
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the key building blocks of building the website (header, footer, and page that holds the entire children content on the monitor) 
 - On root folder create another folder and name it 'components' inside it add these files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`. These are route paths of the metadata or markd
@@ -50,7 +50,7 @@ npm run dev
 View the Next JS app through port [http://localhost:3000](http://localhost:3000/) on your browser to see the result.
 
 ## Creating the Blog
-To begin with we shall start with creating the head section
+To begin we start with creating the head section,
 that is the favicon seen on top of the website.
 **Paste this inside /app/head.tsx** 
 
@@ -194,8 +194,25 @@ const PostPage = (props: any) => {
 };
  export default PostPage;
 ```
-Through the code above we get the convert the markdown matter content which is the data bellow font matter (data between -ve sign )
+Through the code above we get the convert the markdown matter content which is the data bellow front matter (data between -ve sign )
 ![font matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
 and encode it using utf to language that can be displayed on the electronic screen. 
-To generate a list of all the files paths that will be inside the **posts/** folder staticaly, we use the Next JS feature (generateStaticParams) that allows us to return staticaly rendered converted markdown files pages through **[slug]**from dynamic to static site thus anabling it's loading performance. Through this we have finished returning or rendering the file staticaly and created our first blog.
-More information on [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).
+To generate a list of all the files paths that will be inside the **posts/** folder staticaly, we use the Next JS feature (generateStaticParams) that allows us to return markdown files pages through **[slug]**from dynamic to static site and thus improving it's loading performance.More information on [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).
+
+Once the Markdown file path is created we get to return or render the content to HTML using the code bellow. Copy and paste it on the 
+**components/PostMetadata.ts** 
+
+```javascript
+  export interface PostMetadata {
+    title: string;
+    date: string;
+    subtitle: string;
+    slug: string;
+  }
+```
+
+
+
+
+
+ Through this we have finished returning or rendering the file staticaly and created our first blog.

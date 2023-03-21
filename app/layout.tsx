@@ -12,7 +12,7 @@ export default function RootLayout({
   const header = (
  
     <header>
-      <div className="text-center bg-slate-500 p-8 my-6 rounded-md">
+      <div className="text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 my-6 rounded-md">
         <Image
           src="/logo.png"
           width={60}

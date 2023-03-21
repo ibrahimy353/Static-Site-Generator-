@@ -194,11 +194,11 @@ const PostPage = (props: any) => {
 };
  export default PostPage;
 ```
-Through the code above we get convert the markdown matter content which is the data below front matter (data between -ve sign)![font matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
-and encode it using utf to language that can be displayed on the electronic screen
-To generate a list of all the files paths that will be inside the **posts** folder statically, we use the Next JS feature (generateStaticParams) that allows us to return markdown files pages through **[slug]**from dynamic to a static site and thus improve it's loading performance. More information on [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).
+Through the code above, we get to convert the Markdown matter content, which is the data below front matter (data between -ve sign), ![front matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
+and encode it using utf to language that can be displayed on the electronic screen.
+To generate a list of all the files paths that will be inside the **posts** folder statically; we use the Next JS feature (generateStaticParams) that allows us to return markdown files pages through **[slug]** from dynamic to a static site and thus improve it's loading performance. More information on  [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).
 
-Once the Markdown file path is created we get to return or render the content to HTML using the code below from markdown language. Copy and paste it on the **components/PostMetadata.ts**.. 
+Once the Markdown file path is created, we return or render the content to HTML using the code below from the markdown language on .md file. Copy and paste it on the  **components/PostMetadata.ts**.. 
 
 ```javascript
   export interface PostMetadata {
@@ -208,10 +208,9 @@ Once the Markdown file path is created we get to return or render the content to
     slug: string;
   }
 ```
-From the code above we get to pass the content **Title, date, subtitle, and slug**(which is the data below front matter).
+From the code above, we pass the content **Title, date, subtitle, and slug** (the data below front matter).
 
-Now that the entire blog content can be displayed on the screen we get to create the preview of the post which will be displayed on the homepage site together with other blogs or Markdown files using the code below. Copy and paste it on **components/PostPreview.tsx** page.
-We achieve this by creating a path that will render the markdown front matter string into HTML content that is styled using Tailwind.css.
+Now that the entire blog content can be displayed on the screen, we get to create the preview of the post, which will be displayed on the homepage site together with other blogs or Markdown files using the code below. Copy and paste it on **components/PostPreview.tsx** page. We achieve this by creating a path to render the markdown front matter string into HTML content styled using Tailwind.css.
 
 
 ```javascript
@@ -231,5 +230,5 @@ const PostPreview = (props: PostMetadata) =>{
 
 export default PostPreview;
 ```
- Through this we have finished returning or rendering the file staticaly and created our first blog.
+ We have finished returning or rendering the file statically and created our first blog through this
 

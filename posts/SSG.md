@@ -80,7 +80,6 @@ import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
 
-
 export default function RootLayout({
   children,
 }: {
@@ -193,9 +192,7 @@ const PostPage = (props: any) => {
        <article className="prose prose-slate">
          <Markdown>{post.content}</Markdown>
        </article>
-    </div>
-
-   
+    </div>  
   );
 };
  export default PostPage;
@@ -237,6 +234,4 @@ const PostPreview = (props: PostMetadata) =>{
 
 export default PostPreview;
 ```
-
-
  Through this we have finished returning or rendering the file staticaly and created our first blog.

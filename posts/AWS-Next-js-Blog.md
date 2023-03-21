@@ -1,10 +1,13 @@
 ---
 title: 'AWS amazon cloud with Next Js Blog'
 date: 'March 26, 2023'
-subtitle: 'We will look Intagration of AWS cloud with Next Js Blog'
+subtitle: 'We will look Intagration of AWS cloud s3 bucket with Next Js Blog'
 
 ---
 ## COMING SOON
+
+![aws pik](https://user-images.githubusercontent.com/85551204/226673916-0fe55dee-2a82-4653-88c3-01dd8e335f62.jpg)
+
 <!-- Lorem [markdownum](/app/404.tsx), et sanguine rutilos dixit
 nigro cornu genus duris linguae. Super hic deus ego adveniens nullumque Venerem
 equis aurem aliisque celare densis dextramque similis **post**: mihi rexerat;

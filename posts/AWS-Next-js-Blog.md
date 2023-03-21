@@ -1,6 +1,6 @@
 ---
 title: 'AWS amazon cloud with Next Js Blog'
-date: 'March 21, 2023'
+date: 'March 26, 2023'
 subtitle: 'We will look Intagration of AWS cloud with Next Js Blog'
 
 ---

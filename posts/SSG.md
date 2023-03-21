@@ -197,7 +197,7 @@ const PostPage = (props: any) => {
 };
  export default PostPage;
 ```
-Through the code above we get convert the markdown matter content which is the data below front matter (data between -ve sign )![font matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
+Through the code above we get convert the markdown matter content which is the data below front matter (data between -ve sign)![font matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
 and encode it using utf to language that can be displayed on the electronic screen
 To generate a list of all the files paths that will be inside the **posts** folder statically, we use the Next JS feature (generateStaticParams) that allows us to return markdown files pages through **[slug]**from dynamic to a static site and thus improve it's loading performance. More information on [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).
 

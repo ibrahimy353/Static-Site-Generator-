@@ -5,18 +5,17 @@ subtitle: 'Creating a Static Site Generator using Next JS 13'
 ---
 # Why should You create a blog?
 
-Creating a blog Static Site Generator(SSG) can be a great way to express your thoughts, share your knowledge, and build a community. If you've ever been curious about how popular blogging sites like TUKO, Ghafla, and Kahawatungu were created and the tech stacks they used, you're not alone. As I embarked on my own research to understand the process of creating a blog from scratch to deployment, I discovered a vast wealth of information and resources available online. Through this journey, I learned how to create a blog based on the programming language I am conversant with and deploy it online, and now I'm excited to share my knowledge with you. On this website, I'll guide you through the steps of creating your blog, using Next JS and Markdown file that stores the information to deploying it online and sharing it with the world.
-
+Creating a blog Static Site Generator(SSG) can be a great way to express your thoughts, share your knowledge, and build a community. You're not alone if you've ever been curious about how popular blogging sites like TUKO, Ghafla, and Kahawatungu were created and the tech stacks they used. As I began researching to understand the process of creating a blog from scratch to deployment, I discovered a vast wealth of information and resources available online. Through this journey, I learned how to create a blog based on the programming language I am conversant with and deploy it online, and now I'm excited to share my knowledge with you. On this website, I'll guide you through creating your blog, using Next JS and Markdown file that stores the information to deploying it online and sharing it with the world.
 Why Use a Markdown file format as part of creating the blog❓.
-
 - Markdown is a lightweight markup language that is easy to learn and use.
 - It allows you to format text quickly and easily using a simple syntax.
-- Markdown is highly customizable, so you can add your own CSS styling.
-- Since markdown blogs are typically statically rendered they are fast and great for SEO
+- Markdown is highly customizable so you can add your own CSS styling.
+- Since markdown blogs are typically statically rendered, they are fast and great for SEO.
 
-Before starting to design how I wanted the blog to appear, It's important to know the flow in which the written information on the markdown folder will be converted up to the last step of getting the output. below is the workflow diagram on how we shall get the desired output.  
 
-The Markdown file is converted into HTML using a static site generator (SSG) that I created using Next Js and Tailwind CSS for styling. Picture design setup.
+Before starting to design how I wanted the blog to appear, it’s important to know how the written information on the markdown folder will be converted to the last step of getting the output. Below is the workflow diagram on how we shall get the desired outcome.
+The Markdown file is converted into HTML using a static site generator (SSG) I created using Next Js and Tailwind CSS for styling. Picture design setup.
+
   ![workflow](https://user-images.githubusercontent.com/85551204/219668894-57f8fb0a-332c-43e4-9784-11a9494b2bc0.JPG)
 
 Once the HTML files are created we can then host it on to a web server and make it available to visitors
@@ -34,15 +33,14 @@ Onto your favorite text editor.
 ```bash
   cd my-project
 ```
-Since we are using the latest Next JS 13 which changed its feature in how we set up the routing 
-and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs](https://nextjs.org/blog/next-13).
-- On the root folder Create a file called **/app**  and add these files.
-`head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the key building blocks of building the website (header, footer, and page that holds the entire children content on the monitor) 
-- On the root folder create another folder and name it 'components' inside it add these files 
-`getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`. These are route paths of the metadata or markd
-- On the root folder create another folder and call it **Posts** inside it add these markdown files 
+Since we are using the latest Next JS 13, which changed its feature in how we set up the routing and layout structure of the React Framework Next JS 13 Directory.  [Next Js Docs](https://nextjs.org/blog/next-13).
+- On the root folder, create a file called **'app'**  and add these files.
+`head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the critical building blocks of building the website (header, footer, and page that holds the entire children's content on the monitor). 
+- On the root folder, create another folder and name it **'components'**; inside, add these files 
+`getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`. These are route paths of the Metadata or marked.
+-On the root folder, create another folder and call it **'Posts'**; inside it, add these markdown files 
  From this repo [here](https://github.com/ibrahimy353/.md-files).
-- Finally to view the next app on the command terminal run the following; 
+- Finally, to view the next app on the web browser, type into the command terminal following; 
 
 ```bash
 npm run dev
@@ -50,8 +48,8 @@ npm run dev
 View the Next JS app through port [http://localhost:3000](http://localhost:3000/) on your browser to see the result.
 
 ## Creating the Blog
-We start developing the blog by changing the head section title, which is the favicon seen on top of the website.
-**Paste this inside /app/head.tsx** .
+We start developing the blog by changing the head section title, which is the favicon seen on top of the website. Paste this inside
+**app/head.tsx** .
 
 ```javascript
 export default function Head() {

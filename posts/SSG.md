@@ -72,14 +72,14 @@ More information on css from these [tailwindcss](https://v1.tailwindcss.com/docs
 @tailwind components;
 @tailwind utilities;
 ```  
-Inside the **/app/layout.tsx** paste the code below. Through this code, we get to add permanent components/building blocks of the blog that will appear on each page that the navbar, header, and footer, and styled them with Tailwind.css.
+Inside the **/app/layout.tsx** paste the code below. Through this code, we get to add permanent components/building blocks of the blog that will appear on each page that the header, and footer, and styled them with Tailwind.css.
 
 
 ```javascript
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
-import NavBar from "../app/navbar";
+
 
 export default function RootLayout({
   children,
@@ -114,7 +114,6 @@ export default function RootLayout({
     
     <body>
       <div className="mx-auto max-w-2xl px-10" >
-        <NavBar/>
         {header}
         {children}
         {footer}

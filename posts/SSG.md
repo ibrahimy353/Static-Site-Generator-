@@ -39,7 +39,7 @@ and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs]
 - On the root folder Create a file called **/app**  and add this to create this file and add this to create this file.
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the key building blocks of building the website (header, footer, and page that holds the entire children content on the monitor) 
 - On root folder create another folder and name it 'components' inside it add these files 
-`getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.
+`getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`. These are route paths of the metadata or markd
 - On root folder create a folder another folder and call it **Posts** inside it add these markdown files 
  From this repo [here](https://github.com/ibrahimy353/.md-files).
 - Finally to view the next app on the command terminal run the following; 

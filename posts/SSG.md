@@ -37,7 +37,7 @@ Onto your favorite text editor.
 Since we are using the latest Next JS 13 which changed its feature in how we set up the routing 
 and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs](https://nextjs.org/blog/next-13).
 - On the root folder Create a file called **/app**  and add this to create this file and add this to create this file.
-`head.tsx, layout.tsx, navbar.tsx, and page.tsx`.
+`head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the key building blocks of building the website (header, footer, and page that holds the entire children content on the monitor) 
 - On root folder create another folder and name it 'components' inside it add these files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`.
 - On root folder create a folder another folder and call it **Posts** inside it add these markdown files 

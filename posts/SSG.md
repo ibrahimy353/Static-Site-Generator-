@@ -5,16 +5,16 @@ subtitle: 'Creating a Static Site Generator using Next JS 13'
 ---
 # Why should You create a blog?
 
-Creating a blog Static Site Generator(SSG) can be a great way to express your thoughts, share your knowledge and build a community. If you've ever been curious about how popular blogging sites like TUKO, Ghafla, and Kahawatungu were created and the tech stacks they used, you're not alone. As I embarked on my own research to understand the process of creating a blog from scratch to deployment, I discovered a vast wealth of information and resources available online. Through this journey, I learned how to create a blog based on the programming language I am conversant with and deploy it online, and now I'm excited to share my knowledge with you. In this website, I'll guide you through the steps of creating your own blog, using Next JS and Markdown file that stores the information to deploying it online and sharing it with the world.
+Creating a blog Static Site Generator(SSG) can be a great way to express your thoughts, share your knowledge, and build a community. If you've ever been curious about how popular blogging sites like TUKO, Ghafla, and Kahawatungu were created and the tech stacks they used, you're not alone. As I embarked on my own research to understand the process of creating a blog from scratch to deployment, I discovered a vast wealth of information and resources available online. Through this journey, I learned how to create a blog based on the programming language I am conversant with and deploy it online, and now I'm excited to share my knowledge with you. On this website, I'll guide you through the steps of creating your blog, using Next JS and Markdown file that stores the information to deploying it online and sharing it with the world.
 
-Why Use a Markdown file format as part of creating the blog.
+Why Use a Markdown file format as part of creating the blog❓.
 
 - Markdown is a lightweight markup language that is easy to learn and use.
-- It allows you to format text quickly and easily using simple syntax.
+- It allows you to format text quickly and easily using a simple syntax.
 - Markdown is highly customizable, so you can add your own CSS styling.
 - Since markdown blogs are typically statically rendered they are fast and great for SEO
 
-Before starting to design on how I wanted the blog to appear, Its important to know the flow in which the written information on the markdown folder will be converted upto the last step of getting the output. Bellow is the workflow diagram on how we shall get the desired output.  
+Before starting to design how I wanted the blog to appear, It's important to know the flow in which the written information on the markdown folder will be converted up to the last step of getting the output. below is the workflow diagram on how we shall get the desired output.  
 
 The Markdown file is converted into HTML using a static site generator (SSG) that I created using Next Js and Tailwind CSS for styling. Picture design setup.
   ![workflow](https://user-images.githubusercontent.com/85551204/219668894-57f8fb0a-332c-43e4-9784-11a9494b2bc0.JPG)
@@ -38,9 +38,9 @@ Since we are using the latest Next JS 13 which changed its feature in how we set
 and layout structure of the React Framework Next JS 13 Directory. [Next Js Docs](https://nextjs.org/blog/next-13).
 - On the root folder Create a file called **/app**  and add these files.
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the key building blocks of building the website (header, footer, and page that holds the entire children content on the monitor) 
-- On root folder create another folder and name it 'components' inside it add these files 
+- On the root folder create another folder and name it 'components' inside it add these files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`. These are route paths of the metadata or markd
-- On root folder create a folder another folder and call it **Posts** inside it add these markdown files 
+- On the root folder create a folder another folder and call it **Posts** inside it add these markdown files 
  From this repo [here](https://github.com/ibrahimy353/.md-files).
 - Finally to view the next app on the command terminal run the following; 
 
@@ -50,9 +50,8 @@ npm run dev
 View the Next JS app through port [http://localhost:3000](http://localhost:3000/) on your browser to see the result.
 
 ## Creating the Blog
-To begin we start with creating the head section,
-that is the favicon seen on top of the website.
-**Paste this inside /app/head.tsx** 
+We start developing the blog by changing the head section title, which is the favicon seen on top of the website.
+**Paste this inside /app/head.tsx** .
 
 ```javascript
 export default function Head() {
@@ -65,7 +64,15 @@ export default function Head() {
   )
 }
 ```
-Inside the **/app/layout.tsx** paste the code below. Through this code, we get to add permanent components/building blocks of the blog that will appear on each page that the navbar, header, and footer, and styled them with tailwind.CSS.
+To inject custom style to the blog we use Tailwind.css. Copy and paste the code bellow on the **styles/global.css** file.
+More information on css from these [tailwindcss](https://v1.tailwindcss.com/docs/adding-base-styles).
+
+```javascript
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```  
+Inside the **/app/layout.tsx** paste the code below. Through this code, we get to add permanent components/building blocks of the blog that will appear on each page that the navbar, header, and footer, and styled them with Tailwind.css.
 
 
 ```javascript
@@ -119,7 +126,7 @@ export default function RootLayout({
 
 ```
 
-To **Get information from the Markdown(.md) file** we pass the data through getPostMetadata using the code bellow. Copy paste it to your **/components/getPostMetaData** file. 
+To **Get information from the Markdown(.md) file** we pass the data through getPostMetadata using the code below. Copy and paste it to your **/components/getPostMetaData** file. 
 
 ```javascript
 import  fs  from "fs";
@@ -150,9 +157,9 @@ const getPostMetadata = (): PostMetadata[] =>{
 Inside the code just above we get to read file content from the **markdown** file and as well as also return encoded content from **[slug]** 
 file.
 
-To render the Metadata collected using code above from markdown(.md) file, we use **gray-matter** to help with parsing front matter from string to file, we also use **markdown to jsx** 3rd party package assist in converting the markdown language to JSX file system that we get to pass the data using babel in the **postMetadata** to change it to a language that.
+To render the Metadata collected using the code above from the markdown(.md) file, we use **gray-matter** to help with parsing front matter from string to file, we also use **markdown to jsx** 3rd party package to assist in converting the markdown language to JSX file to system that we get to pass the data using babel in the **postMetadata** to change it to a language that.
 
-Create a new dynamic route folder on the root folder **app** and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code bellow. For more infomation on dynamic routes [click here](https://nextjs.org/docs/routing/dynamic-routes/) on Next JS 
+Create a new dynamic route folder on the root folder **app** and name it **posts/[slugs]**. Inside the posts/[slugs] folder add a file  **page.tsx**. The **app/posts/[slugs]**. Inside this slugs add the code below. For more information on dynamic routes click here on [Next JS](https://nextjs.org/docs/routing/dynamic-routes/) .
 
 ```javascript
 import fs from "fs";
@@ -194,13 +201,11 @@ const PostPage = (props: any) => {
 };
  export default PostPage;
 ```
-Through the code above we get the convert the markdown matter content which is the data bellow front matter (data between -ve sign )
-![font matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
-and encode it using utf to language that can be displayed on the electronic screen. 
-To generate a list of all the files paths that will be inside the **posts/** folder staticaly, we use the Next JS feature (generateStaticParams) that allows us to return markdown files pages through **[slug]**from dynamic to static site and thus improving it's loading performance.More information on [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).
+Through the code above we get convert the markdown matter content which is the data below front matter (data between -ve sign )![font matter](https://user-images.githubusercontent.com/85551204/226348737-7b98c401-8cda-4e4c-9dc1-dc3bf0194d0e.JPG)
+and encode it using utf to language that can be displayed on the electronic screen
+To generate a list of all the files paths that will be inside the **posts** folder statically, we use the Next JS feature (generateStaticParams) that allows us to return markdown files pages through **[slug]**from dynamic to a static site and thus improve it's loading performance. More information on [generateStaticParams](https://beta.nextjs.org/docs/api-reference/generate-static-params).
 
-Once the Markdown file path is created we get to return or render the content to HTML using the code bellow. Copy and paste it on the 
-**components/PostMetadata.ts** 
+Once the Markdown file path is created we get to return or render the content to HTML using the code below from markdown language. Copy and paste it on the **components/PostMetadata.ts**.. 
 
 ```javascript
   export interface PostMetadata {
@@ -210,9 +215,29 @@ Once the Markdown file path is created we get to return or render the content to
     slug: string;
   }
 ```
+From the code above we get to pass the content **Title, date, subtitle, and slug**(which is the data below front matter).
+
+Now that the entire blog content can be displayed on the screen we get to create the preview of the post which will be displayed on the homepage site together with other blogs or Markdown files using the code below. Copy and paste it on **components/PostPreview.tsx** page.
+We achieve this by creating a path that will render the markdown front matter string into HTML content that is styled using Tailwind.css.
 
 
+```javascript
+import Link from "next/link";
+import { PostMetadata } from "./PostMetadata";
+const PostPreview = (props: PostMetadata) =>{
+   return (
+    <div className="border border-violet-200 p-4 rounded-md shadow-md bg-white">
+        <p className="text-sm text-slate-400">{props.date}</p>
+        <Link href={`/posts/${props.slug}`}>
+            <h2 className="font-bold text-violet-800 hover:underline mb-4">{props.title}</h2>
+        </Link>
+        <p className="text-slate-700">{props.subtitle}</p> 
+    </div>
+   );
+};
 
+export default PostPreview;
+```
 
 
  Through this we have finished returning or rendering the file staticaly and created our first blog.

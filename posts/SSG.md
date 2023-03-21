@@ -235,3 +235,4 @@ const PostPreview = (props: PostMetadata) =>{
 export default PostPreview;
 ```
  Through this we have finished returning or rendering the file staticaly and created our first blog.
+

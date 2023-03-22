@@ -3,7 +3,7 @@ title: 'Creating a Blog using Next JS 13, Typescript and Markdown'
 date: 'March 23, 2023'
 subtitle: 'Creating a Static Site Generator using Next JS 13'
 ---
-# Why should You create a blog?
+# Ready to Blog? Here's How to Get StartedCreating Your blog.
 
 Creating a blog Static Site Generator(SSG) can be a great way to express your thoughts, share your knowledge, and build a community. You're not alone if you've ever been curious about how popular blogging sites like TUKO, Ghafla, and Kahawatungu were created and the tech stacks they used. As I began researching to understand the process of creating a blog from scratch to deployment, I discovered a vast wealth of information and resources available online. Through this journey, I learned how to create a blog based on the programming language I am conversant with and deploy it online, and now I'm excited to share my knowledge with you. On this website, I'll guide you through creating your blog, using Next JS and Markdown file that stores the information to deploying it online and sharing it with the world.
 Why Use a Markdown file format as part of creating the blog❓.

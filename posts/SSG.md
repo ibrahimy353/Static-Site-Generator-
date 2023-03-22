@@ -13,7 +13,7 @@ Why Use a Markdown file format as part of creating the blog❓.
 - Since markdown blogs are typically statically rendered, they are fast and great for SEO.
 
 
-Before starting to design how I wanted the blog to appear, it’s important to know how the written information on the markdown folder will be converted to the last step of getting the output. Below is the workflow diagram on how we shall get the desired outcome.
+Before starting to design how we want the blog to appear, it’s important to know how the written information on the markdown folder will be converted to the last step of getting the output. Below is the workflow diagram on how we shall get the desired outcome.
 The Markdown file is converted into HTML using a static site generator (SSG) I created using Next Js and Tailwind CSS for styling. Picture design setup.
 
   ![workflow](https://user-images.githubusercontent.com/85551204/219668894-57f8fb0a-332c-43e4-9784-11a9494b2bc0.JPG)

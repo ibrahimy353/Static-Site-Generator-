@@ -230,15 +230,15 @@ const PostPreview = (props: PostMetadata) =>{
 
 export default PostPreview;
 ```
-Assuming that you have openned and registered an account with [GitHub](https://github.com/), go ahead and uploaded your new project  onto your repository account. On our project local folder run the code bellow inside the terminal cmd or powershell.
+
+If you have opened and registered an account with [GitHub](https://github.com/), upload your new project onto your repository account. In our project,  local folder run the code below inside the terminal cmd or powershell.
 
  ```powershell
   npm run build
  ```
 
-
-The command above gets to create a directory with a production build of your app, enabling you to host the website on server of your chosing. For this project, I used [Vercel](https://vercel.com) which is free hosting platform that offers support to Next JS projects. Create an account with it and link it, to your github account.Mor information on deploying GitHub project with Vercel 
-[Here](https://vercel.com/docs/concepts/deployments/git/vercel-for-github). Once you have completed that you can then to deploy your website blog and share it with others.
+The command above creates a directory with a production build of your app, enabling you to host the website on your chosen server. For this project, I used [Vercel](https://vercel.com) a free hosting platform that supports Next JS projects. Create an account with it and link it to your GitHub account. More information on deploying GitHub projects with Vercel is
+[Here](https://vercel.com/docs/concepts/deployments/git/vercel-for-github). Once completed, you can deploy your website blog and share it with others.
 
 ## Get the Entire Code from [HERE](https://github.com/ibrahimy353/Next-static-site-gen.git).
 

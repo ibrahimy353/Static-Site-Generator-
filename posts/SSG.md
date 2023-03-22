@@ -230,5 +230,9 @@ const PostPreview = (props: PostMetadata) =>{
 
 export default PostPreview;
 ```
- We have finished returning or rendering the file statically and created our first blog through this
+Assuming that you have openned and registered an account with [GitHub](https://github.com/), go ahead and uploaded your new project  onto your repository account. On our project local folder run the code bellow inside the terminal cmd or powershell.
 
+ ```powershell
+  npm run build
+ ```
+ 

@@ -235,7 +235,10 @@ Assuming that you have openned and registered an account with [GitHub](https://g
  ```powershell
   npm run build
  ```
- The command above gets to create a directory with a production build of your app, enabling you to host the website on server of your chosing. For this project, I used [Vercel](https://vercel.com/) which is free hosting platform that offers support to Next JS projects. Create an account with it and link it, to your github account.Mor information on deploying GitHub project with Vercel [here](https://vercel.com/docs/concepts/deployments/git/vercel-for-github). Once you have completed that you can then to deploy your website blog and share it with others.
+
+
+The command above gets to create a directory with a production build of your app, enabling you to host the website on server of your chosing. For this project, I used [Vercel](https://vercel.com) which is free hosting platform that offers support to Next JS projects. Create an account with it and link it, to your github account.Mor information on deploying GitHub project with Vercel 
+[Here](https://vercel.com/docs/concepts/deployments/git/vercel-for-github). Once you have completed that you can then to deploy your website blog and share it with others.
 
 ## Get the Entire Code from [HERE](https://github.com/ibrahimy353/Next-static-site-gen.git).
 

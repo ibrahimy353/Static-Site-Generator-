@@ -235,4 +235,4 @@ Assuming that you have openned and registered an account with [GitHub](https://g
  ```powershell
   npm run build
  ```
- 
+ The command above get to create a directory with a production build of your app enabling you to be able to host the website on server of your choosing. For this project, I used [Vercel](https://vercel.com/) which is free hosting service and offers support to Next JS projects. Create an account with it and link it, to your github account. The hosting 

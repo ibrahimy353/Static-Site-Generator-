@@ -33,7 +33,7 @@ Onto your favorite text editor.
 ```bash
   cd my-project
 ```
-Since we are using the latest Next JS 13, which changed its feature in how we set up the routing and layout structure of the React Framework Next JS 13 Directory.  [Next Js Docs](https://nextjs.org/blog/next-13).
+For this project, we will be using the latest Next JS 13, which changed its feature in how we set up the routing and layout structure of the React Framework Next JS 13 Directory.  [Next Js Docs](https://nextjs.org/blog/next-13).
 - On the root folder, create a file called **'app'**  and add these files.
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the critical building blocks of building the website (header, footer, and page that holds the entire children's content on the monitor). 
 - On the root folder, create another folder and name it **'components'**; inside, add these files 

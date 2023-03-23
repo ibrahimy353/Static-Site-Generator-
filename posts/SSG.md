@@ -38,8 +38,12 @@ For this project, we will be using the latest Next JS 13, which changed its feat
 `head.tsx, layout.tsx, navbar.tsx, and page.tsx`. These are the critical building blocks of building the website (header, footer, and page that holds the entire children's content on the monitor). 
 - On the root folder, create another folder and name it **'components'**; inside, add these files 
 `getPostMetadata.ts, PostMetadata.ts and PostPreview.tsx`. These are route paths of the Metadata or marked.
--On the root folder, create another folder and call it **'Posts'**; inside it, add these markdown files 
- From this repo [here](https://github.com/ibrahimy353/.md-files).
+- On the root folder, create another folder and call it **'Posts'**; inside it, add these markdown files 
+ From this repo [here](https://github.com/ibrahimy353/.md-files). 
+- To download the list of entire packages needed for the blog download the **package.json** file from the repo above and run the command bellow on your comand prompt.
+```javascript
+    npm init
+```
 - Finally, to view the next app on the web browser, type into the command terminal following; 
 
 ```bash

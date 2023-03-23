@@ -41,6 +41,7 @@ For this project, we will be using the latest Next JS 13, which changed its feat
 - On the root folder, create another folder and call it **'Posts'**; inside it, add these markdown files 
  From this repo [here](https://github.com/ibrahimy353/.md-files). 
 - To download the list of entire packages needed for the blog download the **package.json** file from the repo above and run the command bellow on your comand prompt.
+
 ```javascript
     npm init
 ```

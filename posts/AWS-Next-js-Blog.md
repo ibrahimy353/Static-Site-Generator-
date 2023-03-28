@@ -1,6 +1,6 @@
 ---
 title: 'AWS amazon cloud with Next Js Blog'
-date: 'March 28, 2023'
+date: 'March 31, 2023'
 subtitle: 'How to Host the Next Js Blog on AWS S3 for free.'
 
 ---
